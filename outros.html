@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="outros.css">
+  <script src="outros.js" defer></script>
+  <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+  <title>Outros</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="./img/logo.png" alt="">BeeCoder</a>
+
+    <nav class="navbar">
+
+      <a href="index.html">Home</a>
+      <a href="operadores.html">Operadores</a>
+      <a href="variaveis.html">Variáveis</a>
+      <a href="estruturas.html">Estruturas</a>
+      <a href="outros.html">Outros</a>
+
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h1>Outros Tópicos</h1>
+      <h3>Vamos Aprender!</h3>
+      <p>JavaScript é uma linguagem de programação essencial para o desenvolvimento web moderno. Originada como uma linguagem de script simples para interatividade em páginas web, JavaScript evoluiu para uma linguagem poderosa e versátil, capaz de criar desde simples interações de usuário até complexas aplicações web e até mesmo aplicativos de servidor. 
+      </p>
+      <div class="btn-box">
+        <a href="#heading"> Veja Mais</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="heading" id="heading">Como Imprimir JS no HTML</h2>
+
+    <div class="about-content">
+      <h3>Alert</h3>
+      <p>Em JavaScript, o alert() é uma função embutida que exibe uma caixa de diálogo modal com uma mensagem para o usuário. É comumente usado para fornecer informações simples ou alertas ao usuário em páginas da web. A caixa de diálogo exibe o texto fornecido como argumento para a função alert().</p>
+    </div>
+
+    <div class="about-content">
+      <h3>Prompt</h3>
+      <p>O prompt() é uma função embutida em JavaScript que exibe uma caixa de diálogo modal com uma mensagem para o usuário e permite que o usuário insira um valor. É útil quando você precisa coletar dados ou entrada do usuário em uma página da web.</p>
+    </div>
+
+    <div class="about-content">
+      <h3>Confirm</h3>
+      <p>Em JavaScript, o confirm() é uma função embutida que exibe uma caixa de diálogo modal com uma mensagem e botões "OK" e "Cancelar". Ele é amplamente utilizado para solicitar uma confirmação do usuário em páginas da web.</p>
+    </div>
+
+    <div class="about-content">
+      <h3>Documente.write</h3>
+      <p>Em JavaScript, o document.write() é um método embutido que permite escrever conteúdo diretamente no documento HTML a partir do código JavaScript. Ele é usado para adicionar conteúdo dinamicamente à página enquanto ela está sendo carregada ou durante a execução do script.</p>
+    </div>
+
+  </section>
+
+    <div class="carrossel">
+       <div class="container" id="img">
+        <img src="./img/alert.png" alt="">
+        <img src="./img/prompt.png" alt="">
+        <img src="./img/confirm.png" alt="">
+        <img src="./img/document.png" alt="">
+       </div>
+    </div>
+
+
+    
+  <section class="about" id="about">
+    <h2 class="heading" id="heading">Tipos de Dados</h2>
+
+    <div class="about-content">
+      <h3>String</h3>
+      <p>Uma sequência de caracteres, normalmente utilizada para representar texto. As strings são delimitadas por aspas simples ('') ou duplas (""). <br>
+        Exemplo: "Olá, mundo!"</p>
+    </div>
+
+
+
+    <div class="about-content">
+      <h3>Number</h3>
+      <p> Representa números, incluindo números inteiros e de ponto flutuante (decimais). Não há distinção entre números inteiros e de ponto flutuante em JavaScript; ambos são representados pelo tipo Number. <br>
+        Exemplo: 10, 3.14</p>
+    </div>
+
+
+
+    <div class="about-content">
+      <h3>Boolean</h3>
+      <p> Representa um valor lógico, que pode ser true (verdadeiro) ou false (falso). É comumente usado em operações de lógica e controle de fluxo. <br>
+        Exemplo: true, false</p>
+    </div>
+
+
+
+    <div class="about-content">
+      <h3>Array</h3>
+      <p>Array: Um objeto especial que contém uma coleção ordenada de elementos. Os elementos podem ser de qualquer tipo de dado e são acessados por um índice numérico. <br>
+        Exemplo: [1, 2, 3, 4, 5]</p>
+    </div>
+
+    <div class="about-content">
+      <h3>Function</h3>
+      <p>Uma função em JavaScript é um objeto que executa um bloco de código quando chamado. <br>
+        Exemplo: function soma(a, b) { <br>
+          return a + b;<br>
+      }
+       </p>
+    </div>
+  </section>
+
+  <section class="exercises" id="exercises">
+    <div class="text">
+      <h1>Vamos Praticar!!</h1>
+      <p>Nesta série de exercícios, você terá a oportunidade de praticar sobre os tipos de dados. Certifique-se de compreender bem cada
+        tipo de dados e como eles são utilizados em diferentes contextos.</p>
+    </div>
+    <form id="exercisesForm">
+      <h2>Exercício 1</h2>
+      <p>Qual é o tipo de dado usado para representar valores verdadeiros ou falsos em JavaScript?</p> <br>
+      <input type="radio" name="q1" value="a"> a) String <br>
+      <input type="radio" name="q1" value="b"> b) Number<br>
+        <input type="radio" name="q1" value="c"> c) Boolean<br>
+        <br>
+
+        <h2>Exercício 2</h2>
+        <p>Qual é o resultado da expressão <strong>typeof "Hello"</strong> em JavaScript?</p> <br>
+        <input type="radio" name="q2" value="a"> a) String <br>
+        <input type="radio" name="q2" value="b"> b) Number<br>
+        <input type="radio" name="q2" value="c"> c) Boolean<br>
+        <br>
+
+        <h2>Exercício 3</h2>
+        <p>Qual é o tipo de dado usado para representar números inteiros em JavaScript?</p><br>
+          
+        <input type="radio" name="q3" value="a"> a) String <br>
+        <input type="radio" name="q3" value="b"> b) Number <br>
+        <input type="radio" name="q3" value="c"> c) Boolean<br>
+        <br>
+
+        <h2>Exercício 4</h2>
+        <p>Qual é o tipo de dado retornado pela <strong> função typeof </strong> quando aplicada a uma função em JavaScript?</p> <br>
+        <input type="radio" name="q4" value="a"> a) Function <br>
+        <input type="radio" name="q4" value="b"> b) Object <br>
+        <input type="radio" name="q4" value="c"> c) String <br>
+          <br>
+
+          <button class="button" type="button" onclick="corrigirExercicios()">Corrigir</button>
+    </form>
+
+    <div id="resultado"></div>
+
+  <div class="home-sci">
+    <a href="https://github.com/hmnenj"><i class='bx bxl-github'></i></a>
+    <a href="https://www.instagram.com/heloysaassis_/"><i class='bx bxl-instagram'></i></a>
+    <p>Copyright © 2024. Todos os direitos reservados.</p>
+  </div>
+
+</body>

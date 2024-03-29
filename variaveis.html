@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="variaveis.css">
+  <script src="variaveis.js" defer></script>
+  <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+  <title>Variáveis</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="./img/logo.png" alt="">BeeCoder</a>
+
+    <nav class="navbar">
+
+      <a href="index.html">Home</a>
+      <a href="operadores.html">Operadores</a>
+      <a href="variaveis.html">Variáveis</a>
+      <a href="estruturas.html">Estruturas</a>
+      <a href="outros.html">Outros</a>
+
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h1>Variáveis</h1>
+      <h3>Vamos Aprender!</h3>
+      <p>
+        Em JavaScript, uma variável é um contêiner para armazenar dados. Ela é um nome simbólico para um valor, e esse
+        valor pode ser alterado ao longo do tempo. Variáveis são amplamente utilizadas em programação para armazenar
+        informações que podem ser manipuladas e referenciadas no código. <br>
+        Variáveis locais e globais são conceitos fundamentais em programação que definem o escopo em que as variáveis
+        são acessíveis dentro de um programa em JavaScript. <br> As variáveis locais são declaradas dentro de um bloco
+        específico, como uma função ou um bloco condicional, e só podem ser acessadas dentro desse bloco onde foram
+        declaradas. <br>
+        Variáveis globais são aquelas declaradas fora de qualquer bloco específico, como funções, loops ou estruturas
+        condicionais, em um programa JavaScript. Elas são acessíveis em todo o programa, o que significa que podem ser
+        utilizadas e modificadas em qualquer parte do código, independentemente do contexto.</p>
+      <div class="btn-box">
+        <a href="#heading"> Tipos de Variáveis</a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <h2 class="heading" id="heading">Tipos de Variáveis</h2>
+
+    <div class="about-content">
+      <h3>Var</h3>
+      <p>Em JavaScript, var é uma palavra-chave utilizada para declarar variáveis. A variável declarada com var tem um
+        escopo de função ou global, o que significa que ela pode ser acessada de qualquer lugar dentro da função em que
+        foi declarada ou do escopo global, se não estiver dentro de uma função. No entanto, as variáveis declaradas com
+        var têm algumas peculiaridades em relação ao escopo, que podem levar a comportamentos inesperados em certas
+        situações.</p>
+    </div>
+
+    <div class="about-content">
+      <h3>Const</h3>
+      <p>Em JavaScript, const é uma palavra-chave utilizada para declarar variáveis com valores constantes, ou seja, uma
+        vez atribuído um valor a uma variável declarada com const, esse valor não pode ser alterado posteriormente
+        durante a execução do programa. É uma forma de criar variáveis imutáveis em JavaScript. O escopo de uma variável
+        declarada com const é semelhante ao escopo de uma variável declarada com let. Ela é limitada ao bloco em que foi
+        declarada. Isso significa que a variável const só é acessível dentro do bloco em que foi definida.</p>
+    </div>
+
+    <div class="about-content">
+      <h3>Let</h3>
+      <p>Em JavaScript, let é uma palavra-chave utilizada para declarar variáveis que são acessíveis apenas dentro do
+        bloco em que foram definidas.Variáveis declaradas com let têm um escopo de bloco, o que significa que elas só
+        podem ser acessadas dentro do bloco em que foram definidas, incluindo blocos de função, loops for, while, blocos
+        if e outros blocos de código delimitados por chaves {}</p>
+    </div>
+    </div>
+  </section>
+
+
+
+<section class="exercises" id="exercises">
+<div class="text">
+  <h1>Vamos Praticar!!</h1>
+  <p>Nesta série de exercícios, você terá a oportunidade de praticar o uso de variáveis em JavaScript. Os
+    exercícios abordarão as variáveis var, let e const. Certifique-se de compreender bem cada
+    tipo de variáveis e como eles são utilizados em diferentes contextos!</p>
+</div>
+<form id="exercisesForm">
+  <h2>Exercício 1</h2>
+  <p>Qual é a principal diferença entre var, let e const em JavaScript?</p> <br>
+  <input type="radio" name="q1" value="a"> a) Var é usada para declarar variáveis de escopo local, enquanto let e const são usadas para variáveis de escopo global.<br>
+  <input type="radio" name="q1" value="b"> b) Var tem escopo de bloco, enquanto let e const têm escopo de função.<br>
+    <input type="radio" name="q1" value="c"> c) Var permite a reatribuição de valores, enquanto let permite apenas a declaração de variáveis imutáveis.<br>
+    <br>
+
+    <h2>Exercício 2</h2>
+    <p>Qual das seguintes afirmações é verdadeira sobre a palavra-chave const em JavaScript?</p><br>
+    <input type="radio" name="q2" value="a"> a) Uma variável declarada com const não pode ser reatribuída após a sua inicialização.<br>
+    <input type="radio" name="q2" value="b"> b) Const é usada apenas para declarar constantes numéricas.<br>
+    <input type="radio" name="q2" value="c"> c) Variáveis declaradas com const têm escopo global.
+
+    <br>
+    <br>
+
+    <h2>Exercício 3</h2>
+    <p>Qual das seguintes palavras-chave é usada para declarar variáveis com escopo de bloco em JavaScript?</p><br>
+      
+    <input type="radio" name="q3" value="a"> a) Var <br>
+    <input type="radio" name="q3" value="b"> b) Let <br>
+    <input type="radio" name="q3" value="c"> c) Const<br>
+    <br>
+
+    <h2>Exercício 4</h2>
+    <p>Por que é considerado uma boa prática evitar o uso de var em favor de let ou const em JavaScript?</p><br>
+    <input type="radio" name="q4" value="a"> a) Porque var é mais eficiente em termos de desempenho.<br>
+    <input type="radio" name="q4" value="b"> b) Porque var é uma palavra-chave obsoleta que não é mais suportada em navegadores modernos.<br>
+    <input type="radio" name="q4" value="c"> c) Porque var pode levar a problemas de escopo e dificultar a manutenção do código.<br>
+      <br>
+
+      <button class="button" type="button" onclick="corrigirExercicios()">Corrigir</button>
+</form>
+
+<div id="resultado"></div>
+</section>
+
+  <div class="home-sci">
+    <a href="https://github.com/hmnenj"><i class='bx bxl-github'></i></a>
+    <a href="https://www.instagram.com/heloysaassis_/"><i class='bx bxl-instagram'></i></a>
+    <p>Copyright © 2024. Todos os direitos reservados.</p>
+  </div>
+
+
+</body>
